@@ -28,8 +28,20 @@ body{
     align-items: center;
     box-shadow: 0 0 10px rgba(15, 8, 225, 0.1);
     border-radius: 24px;
+    position: relative;
 }
-    
+ 
+.profile-card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius:24px 24px 0 0  ;
+
+    background-color: #1da1f2;
+    height: 36%;
+    width: 100%;
+}
 
     
 
@@ -129,4 +141,8 @@ margin-bottom: 20px;
     display: flex;
     padding: 0 20px;
     border-right: 2px solid #9f9898;
+}
+
+.data:last-child{
+    border-right: none;
 }
