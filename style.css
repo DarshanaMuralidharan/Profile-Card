@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+
+
+}
+
+.profile-card{
+    max-width: 400px;
+    width:100%;
+    background-color: #E5E4E2;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(15, 8, 225, 0.1);
+    border-radius: 24px;
+}
+    
+
+    
+
+.image{
+    width:150px;
+height:150px;
+position: relative;
+background-color: blue;
+border-radius: 50%;
+padding: 3px;
+margin-bottom: 20px;
+
+}
+
+.image .pro-img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    
+}
+
+.profile-card .text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+
+.text .name{
+    color: black;
+    font-weight:500;
+    font-size: 22px;
+}
+
+.text .title{
+    color: black;
+    font-weight:150;
+    font-size: 15px;
+    
+}
+
+.media-button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+
+}
+
+.media-button .link{
+    display: flex;
+    width:30px;
+    height: 30px;
+    background-color: blue;
+    margin: 0 8px;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.profile-card .buttons{
+   align-items: center;
+   display: flex;
+}
+
+.buttons .button{
+    background-color: #1da1f2;
+    margin: 0 20px;
+    border: none;
+    border-radius: 24px;
+    color: #f4f4f4;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background-color: rgb(156, 234, 78);
+}
+
+.profile-card .feedback{
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.feedback .data{
+    margin: 0 10px;
+    align-items: center;
+    display: flex;
+    padding: 0 20px;
+    border-right: 2px solid #9f9898;
+}
